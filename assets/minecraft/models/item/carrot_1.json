@@ -2,9 +2,9 @@
 	"format_version": "26.3",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/carrot_leaf",
-		"1": "block/carrot_1",
-		"particle": "block/carrot_leaf"
+		"0": "item/carrot_leaf",
+		"1": "item/carrot_1",
+		"particle": "item/carrot_leaf"
 	},
 	"elements": [
 		{

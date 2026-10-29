@@ -1,0 +1,58 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": "SkelettMaske",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/skeleton_mask"
+          }
+        },
+        {
+          "when": "grüneMütze",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/green_hat"
+          }
+        },
+        {
+          "when": "FuchsMütze",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/fox_hat"
+          }
+        },
+        {
+          "when": "FuchsOhren",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/fox_ears"
+          }
+        },
+        {
+          "when": "HexenHut",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/witch_hat"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/horn_coral_fan"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/horn_coral_fan",
+      "tints": []
+    }
+  }
+}
