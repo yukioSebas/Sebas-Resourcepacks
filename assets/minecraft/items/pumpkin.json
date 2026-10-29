@@ -1,0 +1,42 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/sebas_pumpkin"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/medium_amethyst_bud"
+    },
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": "Kürbis",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/sebas_pumpkin"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:block/pumpkin"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/pumpkin"
+    }
+  }
+}

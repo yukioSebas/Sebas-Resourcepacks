@@ -1,0 +1,57 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/crown1"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/medium_amethyst_bud"
+    },
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": "Teufel",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/devil_horns"
+          }
+        },
+        {
+          "when": "PilzHut",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/shroom_hat"
+          }
+        },
+        {
+          "when": "Axt",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/axe_head"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:block/fire_coral_fan"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/fire_coral_fan",
+      "tints": []
+    }
+  }
+}

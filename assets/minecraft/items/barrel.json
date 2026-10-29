@@ -1,0 +1,37 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": "Äpfel",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/barrel_apples"
+          }
+        },
+        {
+          "when": "Fassl",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/barrel_"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:block/barrel"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/barrel",
+      "tints": []
+    }
+  }
+}
