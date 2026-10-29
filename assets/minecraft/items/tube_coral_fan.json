@@ -12,18 +12,18 @@
           "when": "blaueMütze",
           "model": {
             "type": "minecraft:model",
-            "model": "item/blue_hat"
+            "model": "item/wool_hat_blue"
           }
         }
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "minecraft:item/horn_coral_fan"
+        "model": "minecraft:item/tube_coral_fan"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "minecraft:item/horn_coral_fan",
+      "model": "minecraft:item/tube_coral_fan",
       "tints": []
     }
   }

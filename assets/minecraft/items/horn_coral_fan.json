@@ -19,7 +19,7 @@
           "when": "grüneMütze",
           "model": {
             "type": "minecraft:model",
-            "model": "item/green_hat"
+            "model": "item/wool_hat_green"
           }
         },
         {

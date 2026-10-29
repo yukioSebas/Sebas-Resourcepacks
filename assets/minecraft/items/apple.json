@@ -12,7 +12,7 @@
           "when": "Apfel",
           "model": {
             "type": "minecraft:model",
-            "model": "item/barrel_apples"
+            "model": "item/apple_"
           }
         }
       ],

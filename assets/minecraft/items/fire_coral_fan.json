@@ -33,7 +33,7 @@
           "when": "roteMütze",
           "model": {
             "type": "minecraft:model",
-            "model": "item/red_hat"
+            "model": "item/wool_hat_red"
           }
         }
       ],
