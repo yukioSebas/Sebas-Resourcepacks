@@ -9,7 +9,7 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when": "Apfel",
+          "when": "Apfel!",
           "model": {
             "type": "minecraft:model",
             "model": "item/apple_"
