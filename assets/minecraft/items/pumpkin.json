@@ -9,7 +9,7 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when": "Kürbis",
+          "when": "Kürbis!",
           "model": {
             "type": "minecraft:model",
             "model": "item/sebas_pumpkin"
